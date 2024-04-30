@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags
+    </title>
+</head>
+<body>
+    <h1>Form to apply for TA</h1>
+    <form action="post">
+        <label for="username">Enter your Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Username">
+        <div>
+            <input type="radio" id="Male" name="Gender" value="Male">
+            <label for="Male">Male</label>
+            <input type="radio" id="Female" name="Gender" value="Female">
+            <label for="Female">Female</label>   
+        </div>
+        <div>
+            <input type="checkbox"  id="Subscribe"  name="Subscribe" value="yes" >
+            <label for="Subscribe"</label>
+        </div>
+
+        <div>
+            <label for="comment" >Enter your comment</label>
+            <br>
+            <textarea name="Comment" id="comment" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <select name="Fruits">
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="orange">Orange</option>
+            </select>
+        </div>
+    </form>
+</body>
+</html>
