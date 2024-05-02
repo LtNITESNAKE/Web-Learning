@@ -1,0 +1,61 @@
+/* Selectors in CSS */
+
+        /* Element selector */
+
+        div {
+            background-color: red;
+        }
+
+        /* Class selector */
+
+        .red {
+            background-color: red;
+        }
+
+        /* ID selector */
+
+        #green {
+            background-color: green;
+        }
+
+        /* Child selector */
+
+        div>p {
+            color: blue;
+            background-color: rgb(151, 104, 43);
+        }
+
+        /* Desendant selector */
+        div p {
+            color: aqua;
+            background-color: blueviolet;
+        }
+
+        /* Universal selector */
+
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Pesudo selector */
+
+        a:visited {
+            color: yellow;
+        }
+
+        a:link {
+            color: green;
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: blueviolet;
+        }
+
+        p:first-child {
+            background-color: rgb(30, 33, 216);
+        }
