@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity and Cascade</title>
+    <style>
+        h1{
+            color:rgb(16, 180, 10);
+        }
+        .yellow{
+            color:yellow
+        }  
+      .cred{
+            color:red;
+        }
+        .cpurple{
+            color:purple !important;
+        }
+        #new{
+            color:blue;
+        }
+
+        /* Arttribute selector */
+        [data-x=a]{
+            color: yellow;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1 class="yellow cred cpurple" id="new" data-x="a">CSS Specificity</h1>
+    </div>
+
+    
+</body>
+</html>
