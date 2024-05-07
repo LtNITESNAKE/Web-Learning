@@ -1,0 +1,43 @@
+:root{
+    --color:rgb(59, 214, 137);
+    --seccolor:rgb(23, 239, 81);
+
+}
+body{
+
+    --seccolor: rgb(145, 145, 227);
+    background-color: var(--seccolor);
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: rgb(102, 102, 194);
+    border:2px solid rgb(153, 84, 214);
+  position: sticky;
+  top: 0px;
+    
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+ 
+   
+}
+ul li{
+    margin:23px;
+    text-decoration: solid;
+ 
+}
+ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+ul li a:hover{
+background-color:rgb(113, 60, 193);
+}
