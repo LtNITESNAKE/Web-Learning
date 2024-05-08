@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FDE2E2; /* Light pink background */
+    font-family: Arial, sans-serif; /* Default font */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: #6CB79F; /* Soft green header background */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow */
+    z-index: 100; /* Ensure it's above other content */
+}
+
+nav {
+    border: 2px solid #4B8E77; /* Green border */
+    background-color: #A7E9E0; /* Light aqua background */
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 8px;
+}
+
+section {
+    margin: 20px;
+}
+
+.mainbox {
+    border: 2px solid #293D4A; /* Dark blue border */
+    padding: 20px;
+    background-color: #EAEAEA; /* Light gray background */
+}
+
+.box {
+    display: inline-block;
+    overflow: auto;
+    margin: 142px;
+    border: 2px solid #EF4565; /* Soft red border */
+    width: 344px;
+    height: 340px;
+    padding: 20px;
+    background-color: #F9E5E5; /* Soft pink background */
+}
+
+.roundrectangle {
+    border: 2px solid #293D4A; /* Dark blue border */
+    padding: 40px;
+    margin: 23px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #FFD700; /* Gold background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+img:first-child {
+    border-radius: 50%;
+    width: 85px;
+    height: 85px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+footer {
+    background-color: #293D4A; /* Dark blue background */
+    color: white;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.rectangle {
+    width: 185px;
+    height: 80px;
+    background-color: #EF4565; /* Soft red background */
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
