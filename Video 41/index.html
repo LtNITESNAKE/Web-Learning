@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 6 Navbar Using Flexbox</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: sticky;
+            top: 0px;
+        }
+        nav {
+            margin: 23px;
+            padding: 12px;
+        }
+        ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+        }
+        li {
+            position: relative;
+            display: flex;
+            align-items: center;
+            margin-left: 20px; 
+        }
+        li:first-child {
+            margin-left: 0; 
+            margin-right: auto; 
+        }
+        .dropdown-icon {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/UE-Logo-1.webp" alt="">
+                </li>
+                <li>Products <i class="fas fa-chevron-down dropdown-icon"></i></li>
+                <li>Pricing <i class="fas fa-chevron-down dropdown-icon"></i></li>
+                <li>Resource <i class="fas fa-chevron-down dropdown-icon"></i></li>
+                <li>About us <i class="fas fa-chevron-down dropdown-icon"></i></li>
+                <li>Security and compliance <i class="fas fa-chevron-down dropdown-icon"></i></li>
+                <li><i class="fas fa-language dropdown-icon"></i></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
