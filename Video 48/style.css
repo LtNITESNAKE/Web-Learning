@@ -1,0 +1,218 @@
+.container {
+    position: relative;
+    height: 80vh;
+    width: 80vw;
+    background-color: rgb(149, 149, 239);
+    display: flex;
+    z-index: -1;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    animation: bounce 1s infinite alternate, moveX 10s linear infinite alternate,moving 5s linear infinite alternate;
+}
+.box1 {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(44, 215, 25);
+    border-radius: 100%;
+    position: absolute;
+ z-index: 10;
+    bottom: 0;
+    animation: bounce1 1s infinite alternate, moveX1 10s linear infinite alternate,moving1 5s linear infinite alternate;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(192, 222, 26);
+    border-radius: 50%;
+    position: absolute;
+  z-index: 20;
+    bottom: 0;
+    animation: bounce2 1s infinite alternate, moveX2 10s linear infinite alternate,moving2 5s linear infinite alternate;
+}
+.box3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(204, 17, 228);
+    border-radius: 50%;
+    position: absolute;
+  z-index: 30;
+    bottom: 0;
+    animation: bounce3 1s infinite alternate, moveX3 10s linear infinite alternate,moving3 5s linear infinite alternate;
+}
+.box4{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(6, 252, 170);
+    border-radius: 50%;
+    position: absolute;
+  z-index: 40;
+  left: 20px;
+    bottom: 100;
+    animation: bounce4 1s infinite alternate, moveX4 10s linear infinite alternate,moving4 5s linear infinite alternate , rotate 10s linear infinite alternate;
+}
+
+
+
+
+@keyframes bounce {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 100px; 
+    }
+}
+
+@keyframes moveX {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(80% - 2px); 
+    }
+}
+@keyframes moving{
+    from{
+transform: translateX(0);
+    }
+    to{
+transform: translateX(40px);
+    }
+}
+
+
+
+
+
+@keyframes bounce1 {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 200px; 
+    }
+}
+
+@keyframes moveX1 {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(80% - 2px); 
+    }
+}
+@keyframes moving1{
+    from{
+transform: translateX(0);
+    }
+    to{
+transform: translateX(40px);
+    }
+}
+
+
+
+
+
+@keyframes bounce2 {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 300px; 
+    }
+}
+
+@keyframes moveX2 {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(80% - 2px); 
+    }
+}
+@keyframes moving2{
+    from{
+transform: translateX(0);
+    }
+    to{
+transform: translateX(40px);
+    }
+}
+
+
+@keyframes bounce4 {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 500px; 
+    }
+}
+
+@keyframes moveX4 {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(80% - 2px); 
+    }
+}
+@keyframes moving4{
+    from{
+transform: translateX(0);
+    }
+    to{
+transform: translateX(40px);
+    }
+}
+
+
+
+@keyframes bounce3 {
+    from {
+        bottom: 0;
+    }
+    to {
+        bottom: 400px; 
+    }
+}
+
+@keyframes moveX3 {
+    from {
+        left: 0;
+    }
+    to {
+        left: calc(80% - 2px); 
+    }
+}
+@keyframes moving3{
+    from{
+transform: translateX(0);
+    }
+    to{
+transform: translateX(40px);
+    }
+
+
+}
+
+
+@keyframes rotate{
+    to{
+transform: rotate(360deg);
+
+    }
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    form {
+        animation: rotate 1s infinite 2s infinite alternate-reverse  ;
+    }
+}
