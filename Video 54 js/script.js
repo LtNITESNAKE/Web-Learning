@@ -1,20 +1,7 @@
-alert("hello world")
-
-console.log(" hey i am console ")
-console.log(" hey i am console is running ")
-console.log(" hey i am console  looking like a wow")
 
 
-var a= prompt("enter your number ")
+console.log("hello maryam")
 
-console.log("your number is"+a)
+var a = prompt("Enter your number ")
 
-var isTrue= confirm("Are you sure you want to leave this page and blast your computer")
 
-if(isTrue){
-    console.log("computer is blasting")
-}
-else{
-    console.log("computer is not blasting")
-}
-document.title="hey i am good"
