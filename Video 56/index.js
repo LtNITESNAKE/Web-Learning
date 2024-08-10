@@ -20,3 +20,22 @@ if((age) == 18)
 else{
     console.log("you cannot drive")
 }
+
+
+//ternary opearator
+
+a = 5
+b = 6
+
+ c = a<b ? (a-b):(a+b)
+console.log(c)
+
+switch(c)
+{
+    case 11:
+        console.log("reached") 
+    case -1:
+        console.log("wokring")
+}
+
+
