@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(2, 248, 14);
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+
+}
+
+#terminal{
+    background-color: black;
+  width: 80%;
+  height: 433px;;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.message{
+    margin:10px 0;
+    color:white;
+}
+
+.dot::after{
+    content: ".";
+    animation: blink 1s infinite steps(1,end);
+}
+
+@keyframes blink{
+    0%,100% {content:'';}
+    50% {
+        content: "...";
+    }
+}
